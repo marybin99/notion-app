@@ -6,6 +6,7 @@ function InputNotion() {
   const [url, setUrl] = useState("");
 
   const onChangeId = (e) => {
+    e.preventDefault();
     setValue(e.target.value);
   };
 
